@@ -54,6 +54,29 @@ public class Test {
 		Robot asimo = new Robot();
 		Robot pepper = new Robot();
 
+
+		aibo.name="あいぼ";
+		System.out.println(aibo.name);
+
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+
+		asimo.name="あしも";
+		System.out.println(asimo.name);
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+
+		pepper.name="ぺっぱー";
+		System.out.println(pepper.name);
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
+
+
+
+
 	}
 
 }
