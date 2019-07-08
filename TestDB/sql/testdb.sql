@@ -1,6 +1,6 @@
-drop database if exists testdb;
-create database testdb;
-use testdb;
+drop database if exists testdb_kakiuchi;
+create database testdb_kakiuchi;
+use testdb_kakiuchi;
 
 create table test_table(
 user_id int,

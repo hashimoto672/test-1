@@ -1,6 +1,6 @@
-drop database if exists sampledb;
-create database sampledb;
-use sampledb;
+drop database if exists sampledb_kakiuchi;
+create database sampledb_kakiuchi;
+use sampledb_kakiuchi;
 
 create table sample_table(
 No int,
